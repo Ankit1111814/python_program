@@ -1,6 +1,6 @@
 count =1
-while count <=23:
-  print("ankit ")
+while count <=2332:
+  print("python  ")
   count += 1
 print("Loop finished")
 print("Total iterations:", count - 1)
