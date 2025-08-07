@@ -11,4 +11,5 @@ df  = pd.DataFrame(data)
 print(df)
 
 # remove the missing values
-print(df.dropna())
+df.dropna(inplace=True)
+print(df)
