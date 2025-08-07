@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-
-df.sort_values(by="Age", ascending=True, inplace=True)
+df.sort_values(by=["Age","Salary"],ascending=[True,False],inplace=True)
+# df.sort_values(by="Age", ascending=True, inplace=True)
 print("sorting the by age")
 print(df)
