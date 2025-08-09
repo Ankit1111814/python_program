@@ -6,3 +6,6 @@
 import numpy as np
 arr =np.zeros((3, 3))  # Creates a 2D array of shape (3, 3) filled with zeros
 print(arr)
+
+arr = np.ones((3))  # Creates a 1D array of shape (3,) filled with ones
+print(arr)
