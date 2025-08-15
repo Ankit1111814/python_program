@@ -1,3 +1,4 @@
+# Handling the file 
 import pandas as pd
 data = {
      "Name":["Alice", None, "Charlie", "David", "Eve", "Frank"],
